@@ -14,9 +14,9 @@ const percentual = 0.10;
 
 const totalPercent = entrarValorConta * percentual;
 
-const totalConta = parseInt(entrarValorConta)+ parseInt(totalPercent);
+const totalConta = parseInt(entrarValorConta+totalPercent);
 
-alert("O valor total da conta com taxa de serviço é " + totalConta);
+alert("O valor total da conta com taxa de serviço é " + totalConta.toFixed(2));
 
 
 
