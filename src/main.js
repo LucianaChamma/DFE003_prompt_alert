@@ -20,3 +20,15 @@ alert("O valor total da conta com taxa de serviço é " + totalConta);
 
 
 
+
+
+
+const valorContaPizza = prompt("Digite o valor da sua conta:");
+
+const numPessoas = prompt("Informe o número de pessoas pagantes:");
+
+const valorPessoa = valorContaPizza/numPessoas;
+
+const totalPessoa = parseInt(valorPessoa);
+
+alert("O valor a pagar por pessoa é de  R$ " + totalPessoa);
